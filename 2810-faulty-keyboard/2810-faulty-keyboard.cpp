@@ -2,12 +2,12 @@ class Solution {
 public:
     string finalString(string s) {
     string ans;
-        for(auto i : s)
+        for(auto c : s)
         {
-            if(i=='i') 
+            if(c=='i') 
             reverse(ans.begin(),ans.end());
             else 
-            ans=ans+i;
+            ans=ans+c;
         }
         return ans;
 
